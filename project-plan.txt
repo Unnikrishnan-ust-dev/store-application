@@ -1,0 +1,20 @@
+Stroe Application
+
+Three Services
+1. Catolouge - view all items and prices
+2. Billing - payment and pricing
+3. Authentication - login logout and user management
+4.Admin - to add all the stores and products
+
+Tasks
+1. Create all the services
+2. Create the database models
+3. create the gateway
+4. spin 3 instances of all services
+5. create the load balancer
+6. create the eureka server and client
+7. create the client using fiegn
+8. create the config server for all services
+9. Create swagger ui for every service
+10. add circuit breakers
+11. add default error mechanisms
