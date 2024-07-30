@@ -2,3 +2,6 @@ Steps to build
 1. add the final name in pom file build section. The jar file will be created by this name.
 2. Create the docker file.
 3. do maven clean and install
+4. dont give port number in the properties file.
+5. create the image normally
+6. once image is created run the image with -d -p and do port forwarding
