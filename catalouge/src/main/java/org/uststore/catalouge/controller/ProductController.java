@@ -16,6 +16,11 @@ public class ProductController {
     @Autowired
     private ProductService productService;
 
+    @GetMapping("/greet")
+    public ResponseEntity<String> greet() {
+        return ResponseEntity.ok("Hello User");
+    }
+
     @GetMapping("/products")
     public ResponseEntity<List<Product>> getProducts() {
         List<Product> products =  productService.findAll();
